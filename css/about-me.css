@@ -17,7 +17,6 @@
     width: 90%;
 }
 
-
 /* Random section */ 
 
 .random-section {
@@ -50,6 +49,7 @@
     }
 }
 
+
 @media(min-width: 950px) {
 
     .about-me{
@@ -66,7 +66,7 @@
     }
 
     .random-image{
-        height: 250px;
+        height: 200px;
     }
     
 }
