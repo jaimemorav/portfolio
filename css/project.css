@@ -16,6 +16,14 @@
   zoom: 2;
 }
 
+@media (max-width: 700px) {
+  
+ .prevnext-buttons {
+  top: 300px;
+
+}
+
+
 @media(min-width: 950px) {
 
   .project-img{
