@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
     <link rel="stylesheet" href="/portfolio/css/styles.css">
     <link rel="stylesheet" href="/portfolio/css/project.css">
+    <script type="text/javascript" src="/js/main.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Prompt' rel='stylesheet'>
     <link rel="icon" type="image/vnd.microsoft.icon" href="/portfolio/img/favicon.ico">
@@ -71,38 +72,6 @@
                             <span class="dot" onclick="currentSlide(4)"></span>
                         </div>
                     </div>
-                    <script>
-                        let slideIndex = 1;
-                        showSlides(slideIndex);
-
-                        function plusSlides(n) {
-                            showSlides(slideIndex += n);
-                        }
-
-                        function currentSlide(n) {
-                            showSlides(slideIndex = n);
-                        }
-
-                        function showSlides(n) {
-                            let i;
-                            let slides = document.getElementsByClassName("slides");
-                            let dots = document.getElementsByClassName("dot");
-                            if (n > slides.length) {
-                                slideIndex = 1
-                            }
-                            if (n < 1) {
-                                slideIndex = slides.length
-                            }
-                            for (i = 0; i < slides.length; i++) {
-                                slides[i].style.display = "none";
-                            }
-                            for (i = 0; i < dots.length; i++) {
-                                dots[i].className = dots[i].className.replace(" active", "");
-                            }
-                            slides[slideIndex - 1].style.display = "block";
-                            dots[slideIndex - 1].className += " active";
-                        }
-                    </script>
                 </section>
     </main>
     <footer class="footer">
