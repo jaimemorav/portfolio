@@ -284,7 +284,9 @@ body {
     margin: 15px auto;
 }
 
-
+.slides{
+    display: none;
+}
 
 /* Footer */
 
@@ -347,10 +349,6 @@ body {
     .slide-container{
         max-width: 100%;
         position: relative;
-    }
-
-    .slides{
-        display: none;
     }
     
     .prevnext-buttons{
