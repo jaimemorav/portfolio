@@ -1,7 +1,8 @@
 
 let slideIndex = 1;
-showSlides(slideIndex);
-
+window.addEventListener('load', function () {
+  showSlides(slideIndex);
+})
 function plusSlides(n) {
   showSlides(slideIndex += n);
 }
